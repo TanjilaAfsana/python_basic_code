@@ -55,5 +55,18 @@ tax = sal*(.1, .2) [sal<=50000]
 print(tax)
 """
 
+# nesting
+
+age = int(input("Enter your age: "))
+
+if(age>=18):
+    if(age>=80):
+        print("cannto drive")
+    else:
+        print("can drive")
+else:
+    print("cannot drive your are",age)
+
+
 
 
